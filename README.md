@@ -37,13 +37,15 @@ O objetivo é oferecer uma solução simples e escalável para gerenciar o estoq
 ``` bash
 git clone https://github.com/caiohbiaco/ControdeDeEstoque
 cd controle-de-estoque
-
-3. **Instalar dependências**
+```
+2. **Instalar dependências**
+``` bash
 composer install
-
-4. **Configurar arquivo de ambiente**
+```
+3. **Configurar arquivo de ambiente**
+``` bash
 cp .env.example .env
-
+```
 Edite as variáveis de banco de dados no .env:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -53,18 +55,22 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 4. **Gerar chave da aplicação**
+```
 php artisan key:generate
-
+```
 5. **Executar migrations e seeders**
+```
 php artisan migrate --seed
-
+```
 6. **Rodar o servidor**
+```
 php artisan serve
-
+```
 7. **Acessar a aplicação
+```
 Abra no navegador:**
 http://127.0.0.1:8000
-
+```
 Usuário de Teste
 Nome	     Email          Senha
 Admin 	admin@teste.com     12345678
