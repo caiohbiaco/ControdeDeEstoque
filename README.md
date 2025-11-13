@@ -34,8 +34,8 @@ O objetivo é oferecer uma solução simples e escalável para gerenciar o estoq
 ## Passos para Instalação e Execução
 
 1. **Clonar o repositório**
-```bash
-git clone <URL_DO_REPOSITORIO>
+bash
+git clone https://github.com/caiohbiaco/ControdeDeEstoque
 cd controle-de-estoque
 
 2. **Instalar dependências**
