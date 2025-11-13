@@ -34,14 +34,14 @@ O objetivo é oferecer uma solução simples e escalável para gerenciar o estoq
 ## Passos para Instalação e Execução
 
 1. **Clonar o repositório**
-bash
+``` bash
 git clone https://github.com/caiohbiaco/ControdeDeEstoque
 cd controle-de-estoque
 
-2. **Instalar dependências**
+3. **Instalar dependências**
 composer install
 
-3. **Configurar arquivo de ambiente**
+4. **Configurar arquivo de ambiente**
 cp .env.example .env
 
 Edite as variáveis de banco de dados no .env:
