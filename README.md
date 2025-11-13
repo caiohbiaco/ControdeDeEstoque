@@ -45,7 +45,7 @@ composer install
 3. **Configurar arquivo de ambiente**
 ``` bash
 cp .env.example .env
-```
+
 Edite as variáveis de banco de dados no .env:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -53,7 +53,7 @@ DB_PORT=3306
 DB_DATABASE=controle_estoque
 DB_USERNAME=root
 DB_PASSWORD=
-
+```
 4. **Gerar chave da aplicação**
 ```
 php artisan key:generate
@@ -66,7 +66,7 @@ php artisan migrate --seed
 ```
 php artisan serve
 ```
-7. **Acessar a aplicação
+7. Acessar a aplicação
 ```
 Abra no navegador:**
 http://127.0.0.1:8000
