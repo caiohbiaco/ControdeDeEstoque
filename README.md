@@ -68,11 +68,9 @@ php artisan serve
 ```
 7. Acessar a aplicação
 ```
-Abra no navegador:**
-http://127.0.0.1:8000
+Abra no navegador: http://127.0.0.1:8000
 ```
 Usuário de Teste
-Nome	     Email          Senha
-Admin 	admin@teste.com     12345678
+Nome: Admin	     Email: admin@teste.com         Senha: 12345678
 
 Obs.: É possível criar novos usuários pelo formulário de registro.
